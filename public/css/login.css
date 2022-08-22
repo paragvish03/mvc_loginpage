@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Josefin+Sans&display=swap');
+body{
+    background-color: rgb(174, 182, 166);
+    font-family: 'Bebas Neue', cursive;
+    background-image: url('https://img.choice.com.au/-/media/20604607e2794382bbf5f40d67974dd4.ashx?w=660&jq=80%20660w');
+    height: 70vh;
+    background-size: cover;
+   
+}
+form{
+    border: 1px solid rgb(126, 126, 126);
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(37, 166, 218, 0.719);
+    box-shadow: inset 0px 1px 20px 0px;
+}
+header{
+    width: 100vw;     
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#submit{
+    background-color: rgb(108, 159, 206);
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+button:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+input{
+    width: 15vw;
+    outline: none;
+}
+button{
+    background-color: rgb(165, 187, 187);
+    margin-top: 12px;
+}

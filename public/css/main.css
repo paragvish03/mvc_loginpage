@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@200&family=Josefin+Sans&display=swap');
+body{
+    background-color: rgb(128, 151, 151);
+    font-family: 'Bebas Neue', cursive;
+    
+}
+header .front{
+  background-image: url('../img/wqa_857x260\ \(1\).jpg');
+    background-size: cover;
+    width: auto;
+    height: 30vw;
+   
+   
+}
+
+nav{
+  padding-right: 60px;
+  display: flex;
+  justify-content: right;
+  
+}
+a{
+  text-decoration: none;
+}
+li{
+  margin-right: 20px;
+  display: inline-block;
+  padding:3px 3px 3px 3px;
+  background-color: rgba(125, 248, 1, 0.932);
+}
+
