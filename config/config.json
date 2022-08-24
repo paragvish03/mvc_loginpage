@@ -3,7 +3,7 @@
     "username": "paragvish03",
     "password": "test_2022",
     "host": "db4free.net",
-    "database": "amazon_database",
+    "database": "loginpageinfo",
     "dialect": "mysql"
   },
   "test": {
@@ -16,7 +16,7 @@
   "production": {
     "username": "paragvish03",
     "password": "test_2022",
-    "database": "amazon_database",
+    "database": "loginpageinfo",
     "host": "db4free.net",
     "dialect": "mysql"
   }
