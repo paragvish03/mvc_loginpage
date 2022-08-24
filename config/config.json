@@ -2,7 +2,7 @@
   "development": {
     "username": "paragvish03",
     "password": "test_2022",
-    "host": "db4free.net",
+    "host": "localhost",
     "database": "loginpageinfo",
     "dialect": "mysql"
   },
