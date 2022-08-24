@@ -1,16 +1,18 @@
 const express = require('express');
+
 const {sequelize} = require('./models')
 const {webrouter} = require('./routes/webpages');
 const {Userrouter}= require('./routes/user_routes');
 
-var cookieParser = require('cookie-parser')
+const cookieParser = require('cookie-parser');
+
 
 
 const app= express();
 
 
 app.use(express.json())
-app.use(express.urlencoded())
+app.use(express.urlencoded({extended: true }))
 app.use(express.static('public'))
 app.set('view engine','ejs')
 app.use(cookieParser())
