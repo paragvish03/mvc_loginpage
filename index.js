@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 
 const {sequelize} = require('./models')
@@ -19,7 +20,7 @@ app.use(cookieParser())
 
 app.use(webrouter)
 app.use(Userrouter)
-app.listen(2200,()=>{
+app.listen((process.env.PORT || 5000),()=>{
     console.log('server running')
     sequelize.sync({force:false})
 }) 
