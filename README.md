@@ -7,4 +7,4 @@ Once the homepage display there is a(blog) section which need authorisation befo
 2)ORM (sequelise) is used which makes easy to map in database
 3)Hashing password is done while storing into db
 4)provide alert if email is already  registered or credential is wrong
-5)Express framework is used for rest api creation
+5)Express framework is used for rest api creation.
